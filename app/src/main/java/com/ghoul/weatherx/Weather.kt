@@ -1,10 +1,10 @@
 package com.ghoul.weatherx
 
 data class Weather(
-    val date: String = "2, November 2023",
+    val date: String = "29, May 2025",
     val description: String = "Cooling down with a chance of rain Sunday, Monday & Tuesday.",
     val condition: String = "Sunny",
-    val location: String = "Kharar, Punjab",
+    val location: String = "Jakarta, Indonesia",
     val update: List<WeatherUpdate> = weatherList
 ) {
     data class WeatherUpdate(
